@@ -1,6 +1,6 @@
-# Micro-fix
+# CodeMedic
 
-Et premium system for å håndtere feilrettingsforespørsler bygget med Next.js, Supabase og Stripe.
+En profesjonell plattform for rask og trygg teknisk webhjelp, bygget med Next.js, Supabase og Stripe.
 
 ## Funksjoner
 
@@ -129,7 +129,7 @@ npm run dev
 ### 1. Push til GitHub
 ```bash
 git add .
-git commit -m "Complete Micro-fix platform"
+git commit -m "Complete CodeMedic platform"
 git push origin main
 ```
 
