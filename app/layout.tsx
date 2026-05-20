@@ -28,8 +28,11 @@ export const metadata: Metadata = {
   authors: [{ name: 'CodeMedic', url: 'https://codemedic.no' }],
   robots: { index: true, follow: true },
   icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     title: 'CodeMedic — Premium norsk WordPress-hjelp',
